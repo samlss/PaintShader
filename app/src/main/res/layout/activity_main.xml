@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn_lg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onStartLinearGradient"
+            android:text="LinearGradient示例"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_bs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="BitmapShader圆形头像+放大镜"
+            android:onClick="onStartBitmapShader1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_bs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="BitmapShader倒影"
+            android:onClick="onStartBitmapShader2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_cg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onStartComposeShader"
+            android:text="ComposeShader"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onStartRadialGradient"
+            android:text="RadialGradient"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_sg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onStartSweepGradient"
+            android:text="SweepGradient"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onStartSweepGradient2"
+            android:text="SweepGradient雷达扫描"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_nl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="霓虹灯"
+            android:onClick="onStartNeonLights"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
